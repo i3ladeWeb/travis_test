@@ -1,3 +1,7 @@
+os:
+  - linux
+  - osx
+
 addons:
   apt:
     packages:
@@ -24,4 +28,4 @@ install:
 #  - find . -name "*.tar*"
   - pip install ./xraylib/dist/xraylib-3.1.tar.gz
 script:
-  - python -c "import xraylib"
+  - python -c "import xraylib; print(xraylib)"
