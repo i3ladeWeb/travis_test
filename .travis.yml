@@ -9,7 +9,7 @@ python:
   # maintainers to fix their pypy-dev package.
 #  - "pypy"
 # command to install dependencies
-before_instaöö:
+before_install:
   - setup_sources.sh
   - setup_package.sh
 install:
