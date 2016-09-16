@@ -1,0 +1,4 @@
+include config.h
+include src/*.c
+include src/*.h
+include include/*.h
