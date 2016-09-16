@@ -10,8 +10,8 @@ python:
 #  - "pypy"
 # command to install dependencies
 before_install:
-  - setup_sources.sh
-  - setup_package.sh
+  - ./setup_sources.sh
+  - ./setup_package.sh
 install:
   - cd xraylib
   - python setup.py sdist
