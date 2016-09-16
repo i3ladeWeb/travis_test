@@ -21,3 +21,5 @@ install:
   - cd xraylib
   - python setup.py sdist
   - pip install ./xraylib/dist/xraylib-3.1.tar.gz
+script:
+  - python -c "import xraylib"
